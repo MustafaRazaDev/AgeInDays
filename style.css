@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+  }
+  .container-1{
+    text-align: center;
+    border: 0.1vw solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;  
+    width: 50%;
+    margin-top: 20%;
+  }
+  .flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 1%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .flex-box-container-1 div{
+    padding: 0.5%;
+    align-items: center;
+    display: flex;
+  }
+  
